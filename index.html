@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>安心中国語（Anxin Chinese）</title>
+  <link rel="stylesheet" href="asserts/style.css">
   <style>
     body {
       font-family: "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic", "MS PGothic", sans-serif;
@@ -32,12 +33,6 @@
     }
     h2 {
       color: #3e8ed0;
-    }
-    footer {
-      text-align: center;
-      padding: 10px;
-      font-size: 0.9em;
-      color: #777;
     }
   </style>
 </head>
@@ -85,9 +80,14 @@
   </section>
 </main>
 
-<footer>
-  &copy; 2025 安心中国語（Anxin Chinese）｜無断転載・複製・商用利用を禁じます。｜All rights reserved.
-</footer>
+<div id="footer"></div>
+  <script>
+    fetch('footer.html')
+    .then(response => response.text())
+    .then(html => {
+        document.getElementById('footer').innerHTML = html;
+    });
+  </script>
 
 </body>
 </html>
