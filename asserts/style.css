@@ -1,6 +1,54 @@
+/* 基础字体与颜色 */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Meiryo", "Yu Gothic", "MS PGothic", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* 页眉 */
+header {
+  background: #3e8ed0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 主体容器（可选） */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 标题颜色 */
+h1, h2 {
+  color: #3e8ed0;
+}
+
+/* 页脚 */
 footer {
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9em;
-    color: #777;
-    }
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* 跟读材料展示页面 */
+/* PDF 和音频 */
+embed {
+  width: 100%;
+  height: 600px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  outline: none;
+}
