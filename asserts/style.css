@@ -16,7 +16,11 @@ header {
   text-align: center;
 }
 
-/* 主体容器（可选） */
+header h1 {
+  color: white;
+}
+
+/* 页body */
 main {
   max-width: 800px;
   margin: 40px auto;
@@ -51,4 +55,20 @@ embed {
 audio {
   width: 100%;
   outline: none;
+}
+
+/* アンケートボタン */
+a.survey-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e8ed0;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 15px 0;
+  transition: background-color 0.3s;
+}
+a.survey-button:hover {
+  background-color: #2c6fac;
 }
