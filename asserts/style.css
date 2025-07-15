@@ -45,7 +45,7 @@ footer {
 
 /* 跟读材料展示页面 */
 /* PDF 和音频 */
-embed {
+iframe.pdf-viewer {
   width: 100%;
   height: 600px;
   border: 1px solid #ccc;
