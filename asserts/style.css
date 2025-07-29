@@ -59,6 +59,18 @@ iframe.audio-player {
   height: 120px;
 }
 
+/* スマホを使う時、音声再生の案内 */
+.audio-tip {
+  background-color: #f0f8ff; /* 柔和浅黄色 */
+  color: #333;
+  font-size: 1rem;
+  padding: 0.4em 0.8em;       /* ↓ 减少上下 padding */
+  margin: 0.8em 0 0.4em;      /* ↓ 减少上下外距 */
+  border-left: 4px solid #3e8ed0;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
 /* アンケートボタン */
 a.survey-button {
   display: inline-block;
