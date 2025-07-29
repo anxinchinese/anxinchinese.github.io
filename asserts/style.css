@@ -61,7 +61,7 @@ iframe.audio-player {
 
 /* スマホを使う時、音声再生の案内 */
 .audio-tip {
-  background-color: #f0f8ff; /* 柔和浅黄色 */
+  background-color: #f0f8ff; /* 柔和浅蓝色 */
   color: #333;
   font-size: 1rem;
   padding: 0.4em 0.8em;       /* ↓ 减少上下 padding */
